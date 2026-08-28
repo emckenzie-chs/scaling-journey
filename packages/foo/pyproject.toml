@@ -1,5 +1,5 @@
 [project]
-name = "scaling-journey"
+name = "foo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -10,13 +10,8 @@ requires-python = ">=3.14"
 dependencies = []
 
 [project.scripts]
-scaling-journey = "scaling_journey:main"
+foo = "foo:main"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
 build-backend = "uv_build"
-
-[tool.uv.workspace]
-members = [
-    "packages/foo",
-]
