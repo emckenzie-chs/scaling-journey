@@ -4,9 +4,15 @@ requires-python = ">=3.14"
 
 [manifest]
 members = [
+    "bar",
     "foo",
     "scaling-journey",
 ]
+
+[[package]]
+name = "bar"
+version = "0.1.0"
+source = { editable = "packages/bar" }
 
 [[package]]
 name = "foo"
